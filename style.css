@@ -1,0 +1,41 @@
+body {
+    background-color: yellow;
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-family: helvetica;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    gap: 5px;
+    grid-template-rows: 120px 120px 120px;
+    grid-template-columns: 120px 120px 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.squares {
+    background-color: yellowgreen;
+    height: 120px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 100px;
+    cursor: pointer;
+}
+
+.reset {
+    background-color: lightcoral;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
